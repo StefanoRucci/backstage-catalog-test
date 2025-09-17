@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo-ec2
+  name: demo-ec2-stefano
   description: Una risorsa EC2 di esempio su AWS
   annotations:
     aws.amazon.com/ec2-instance-id: "i-0abcd1234efgh5678"
