@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-ec2
+  description: Una risorsa EC2 di esempio su AWS
+  annotations:
+    aws.amazon.com/ec2-instance-id: "i-0abcd1234efgh5678"
+spec:
+  type: resource
+  lifecycle: production
+  owner: your-team@example.com
